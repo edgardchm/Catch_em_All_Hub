@@ -1,0 +1,65 @@
+.login-content {
+  --background: none;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('https://firebasestorage.googleapis.com/v0/b/appmobilepokemon.appspot.com/o/colorful-abstract-background-phone-wallpaper-4k-uhdpaper.com-233%400%40g.jpg?alt=media&token=c036398f-b021-4be7-833b-0211adf6ba7e') center center/cover no-repeat;
+  z-index: -1;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 20px;
+}
+
+ion-item {
+  margin-bottom: 10px;
+}
+
+ion-button {
+  margin-top: 20px;
+}
+
+ion-title.title-large {
+  color: #c897d8;
+  font-size: 30px;
+}
+
+ion-title {
+  --color: #ffffff;
+}
+
+ion-toolbar {
+  --background: #000000;
+}
+
+.rounded-input {
+
+  border-radius: 60px !important;
+  width: 90%;
+  height: 50px;
+
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px; /* Ajusta el margen según sea necesario */
+}
+
+.small-image {
+  width: 360px; /* Ajusta el tamaño según sea necesario */
+  height: 360px; /* Ajusta el tamaño según sea necesario */
+  object-fit: contain;
+}
+

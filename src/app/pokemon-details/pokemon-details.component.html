@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Detalles del Pokémon</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-content>
+      <img [src]="pokemonDetails.sprites.front_default" alt="{{ pokemonDetails.name }}">
+      <p>{{ pokemonDetails.name }}</p>
+      <p>Altura: {{ pokemonDetails.height }}</p>
+      <p>Peso: {{ pokemonDetails.weight }}</p>
+      <!-- Otros detalles del Pokémon -->
+    </ion-card-content>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Pokémon App</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button expand="full" routerLink="/pokemon-go">
+    <ion-icon name="logo-game-controller-a"></ion-icon>
+    Pokémon GO
+  </ion-button>
+  <ion-button expand="full" routerLink="/pokemon-tcg">
+    <ion-icon name="logo-twitch"></ion-icon>
+    Pokémon TCG
+  </ion-button>
+  <ion-button expand="full" (click)="viewPokemonDetails('pikachu')">
+    <ion-icon name="logo-game-controller-a"></ion-icon>
+    Ver detalles de Pikachu
+  </ion-button>
+</ion-content>

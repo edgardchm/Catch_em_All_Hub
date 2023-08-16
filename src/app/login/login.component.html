@@ -1,0 +1,20 @@
+<ion-content class="login-content">  
+  <div class="background-image">   
+  <div class="login-form">
+    <div class="image-container"> 
+      <img src="https://firebasestorage.googleapis.com/v0/b/appmobilepokemon.appspot.com/o/logo.gif?alt=media&token=8da3dbde-96c1-4b62-9fa4-2c158e8a7f0e" class="small-image" alt="Imagen 1">    
+      <!-- <img src="https://firebasestorage.googleapis.com/v0/b/appmobilepokemon.appspot.com/o/Pokemon_TCG_Live_Logo_ES.png?alt=media&token=1da6136e-d882-4e1e-b0e6-809163ef1645" class="small-image" alt="Imagen 2"> -->
+    </div>
+    <ion-item class="rounded-input">
+      <ion-label position="floating" style="text-align: center; margin-top: -11px;">Correo electrónico</ion-label>
+      <ion-input [(ngModel)]="email" type="email"></ion-input>
+    </ion-item>
+    <ion-item class="rounded-input">
+      <ion-label position="floating" style="text-align: center; margin-top: -11px;" >Contraseña</ion-label>
+      <ion-input [(ngModel)]="password" type="password" class="rounded-input"></ion-input>
+    </ion-item>
+    <ion-button expand="full" (click)="signIn()">Iniciar Sesión</ion-button>
+    <ion-button expand="full" color="secondary" (click)="goToRegister()">Registrarse</ion-button>
+  </div>
+</div>
+</ion-content>
